@@ -19,3 +19,5 @@ model has been evaluated with the help of precision and recall matrix and accura
 # Saving the model:
 the model has been saved into H5 file so that it can be used by anyone in any other application or can be deployed to an API.
 
+# P.S:
+if you happen to use a large image data set or a very deep neural network, then you will need to leverage CUDA-enabled GPU's capability for parellel processing. I don't have a GPU on my local machine that is why I couldn't use a large amount of data or a very deep learning model. However, this model presents a good accuracy.
